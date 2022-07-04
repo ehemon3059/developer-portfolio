@@ -8,10 +8,11 @@ h1{
     background: -webkit-linear-gradient(#68c4ee, #2f03f1);
     -webkit-background-clip: text;-webkit-text-fill-color: transparent;
 }
-#AshColor{
+.AshColor{
     color: #444444;
+    
 }
-.my-title{
+y-title{
     font-size: 35px;
 }
 
@@ -53,8 +54,59 @@ section{
 }
 .secound-div img{
     border-radius: 50%;
+    
+        /* box-shadow: 0px 0px 10px 5px rgba(15, 91, 255, 0.562); */
     width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.example1{
+   
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    
+    margin: 40px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+    width: 50%;
+}
+.secoundSecRound{
+        background-image: url(image/ride-side-border.png);
+            background-repeat: no-repeat;
+            background-position: right;
+
+}
+.lastSection{
+    background-image: url(image/side-banner.png);
+    background-repeat: no-repeat;
+}
+.lastSection h2{
+    font-size: 40px;
+    color: #3b3b3b;
+}
+.lastSection h3 {
+    font-size: 20px;
+    color: #ca044cbe;
+   
+}
+#expText{
+    text-align: left;
+    padding-left: 40px;
+}
+#box1{
+    border-left: 6px solid #3055cc;
+    border-radius: 5px;
+}
+#box2{
+    border-left: 6px solid #e45c0e;
+    border-radius: 5px;
+}
+
+.footerText{
+    text-align: center;
 }
