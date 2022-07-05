@@ -71,6 +71,7 @@ section{
     
     margin: 40px;
     padding-left: 30px;
+    padding-right: 25px;
     padding-bottom: 20px;
     
     width: 50%;
@@ -80,6 +81,9 @@ section{
             background-repeat: no-repeat;
             background-position: right;
 
+}
+.secoundSecRound p{
+    padding-right: 30px;    
 }
 .lastSection{
     background-image: url(image/side-banner.png);
@@ -91,7 +95,7 @@ section{
 }
 .lastSection h3 {
     font-size: 20px;
-    color: #ca044cbe;
+    color: #0f48e2be;
    
 }
 #expText{
